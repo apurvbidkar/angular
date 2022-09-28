@@ -18,10 +18,10 @@ phases:
     commands:
       - mv appspec.yml ./dist/my-dream-app
       - mv scripts ./dist/my-dream-app
+      - mv dist ./dist/my-dream-app
 artifacts:
   files:
     - "**/*"
-    - dist/**/*
   discard-paths: no
   base-directory: dist/my-dream-app
 
