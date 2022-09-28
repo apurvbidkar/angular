@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo rm -rf /var/www/html/
+cd /var/www/html/
+sudo rm -rf index.html index.nginx-debian.html
