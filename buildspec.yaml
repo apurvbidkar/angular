@@ -22,7 +22,6 @@ phases:
 artifacts:
   files:
     - "**/*"
-    - dist/**/*
   discard-paths: no
   base-directory: dist/my-dream-app
 
