@@ -14,10 +14,11 @@ phases:
       # - echo testing...
       # - echo building...
       - ng build --prod
+  post_build:
+    commands:
+      - echo complete
 artifacts:
   files:
-    - "**/*"
     - "dist/**/*"
     
   discard-paths: no
-  base-directory: dist/my-dream-app
