@@ -14,14 +14,6 @@ phases:
       # - echo testing...
       # - echo building...
       - ng build --prod
-  #post_build:
-   # commands:
-    #  - mv appspec.yml ./dist/my-dream-app
-     # - mv scripts ./dist/my-dream-app
-     
 artifacts:
   files:
     - "**/*"
-  #discard-paths: no
-  #base-directory: dist/my-dream-app
-
